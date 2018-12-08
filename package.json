@@ -5,9 +5,9 @@
     "cli-ts": "./dist/index.js"
   },
   "scripts": {
-    "dev": "nodemon --exec 'ncc build index.tsx' --watch index.tsx",
-    "build": "ncc build index.tsx",
-    "prepublish": "rm -rf dist && ncc build index.tsx"
+    "dev": "nodemon --exec 'ncc build index.ts' --watch index.ts",
+    "build": "ncc build index.ts",
+    "prepublish": "rm -rf dist && ncc build index.ts"
   },
   "dependencies": {
     "@types/node": "^10.12.12",
